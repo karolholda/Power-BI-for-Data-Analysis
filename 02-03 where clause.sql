@@ -3,7 +3,7 @@ select
 	,case 
 		when alias.ilosc_zam = 1 then 'Nowy Klienciak'
 		when alias.ilosc_zam > 1 and alias.ilosc_zam  < 5 then 'Regular'
-		when alias.ilosc_zam >= 5 and alias.ilosc_zam  < 10 then 'Jebany Bankrut'
+		when alias.ilosc_zam >= 5 and alias.ilosc_zam  < 10 then 'Bankrut'
 		else 'Zjeb'
 	end as typ_klienta
 from 
