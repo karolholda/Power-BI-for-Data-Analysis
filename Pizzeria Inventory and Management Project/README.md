@@ -25,8 +25,8 @@ The dashboard offers detailed visualizations and analysis, including:
 - **Total Revenue**: Displays cumulative income generated.
 - **Products Inventory**: Analyzes total ingredients cost by ordered products.
 - **Inventory Management**: Tracks products that require additional purchase.
-- **Color Preferences**: Pie chart showing the distribution of car colors sold.
-- **Regional Sales Analysis**: Highlights locations with the highest car sales, helping to pinpoint geographic performance.
+- **Color of Staff**: Cost per Staff Member by Position.
+- **Staff Spendigs Analysis**:Employee cost comparison.
 
 <div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin-bottom:50px;">
   <img src="https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria1.jpg" alt="Dashboard Preview 2" style="width:380px; height:auto;">
@@ -46,10 +46,9 @@ The dashboard offers detailed visualizations and analysis, including:
 - **Data Cleaning**: Handled null values, inconsistencies, and formatted date columns.
 - **Data Modeling**: Established relationships between multiple tables (e.g., car details, sales data, and pricing).
 - **Custom Measures**: Created DAX measures for:
-  - Top-selling car models.
+  - Top-selling pizza models.
   - Monthly revenue trends.
   - Customer preferences segmentation.
-- **Interactive Filters**: Added slicers for date range, price categories, engine type, and transmission type.
 
 ---
 
@@ -65,7 +64,7 @@ The dashboard offers detailed visualizations and analysis, including:
 ## ⚙️ Data Preparation
 
 ### Source:
-- The dataset includes details of car sales transactions, extracted from a fictional database.
+- The dataset includes details of pizza sales transactions, extracted from a fictional database.
 
 ### Data Cleaning:
 - Addressed null values and duplicates.
