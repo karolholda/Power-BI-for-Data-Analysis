@@ -1,58 +1,87 @@
-## 👋 Hi there! Welcome to my GitHub space!
+# Pizzeria Analysis Dashboard 2024
 
-I’m a data analytics student with a strong focus on helping businesses turn data into valuable insights that drive growth and efficiency. Through my involvement in the Mathematics and Computer Science student associations at my university, I actively explore ways to leverage data for better decision-making and problem-solving.
-
-🎓 **Academic Background**: My studies in "Uniwersytet Komisji Edukacji Narodowej w Krakowie" - computer science major, provide me with a solid foundation in mathematics and computer science, which I apply to real-world business problems. My academic work, combined with hands-on projects in student organizations, has equipped me with the skills to analyze complex data sets and offer actionable insights that businesses can use to optimize their strategies.
-
-📊 **Business Impact and Skills**: I am passionate about helping companies improve their performance through data-driven insights. Whether it's identifying trends, forecasting outcomes, or optimizing processes, I focus on delivering solutions that are both practical and measurable. I'm experienced with tools like Python, SQL, and data visualization platforms such as Tableau, which enable me to create clear and impactful visualizations tailored to business needs.
-
-🌱 **Motivation and Goals**: My goal is to support businesses in making data-driven decisions that lead to growth, cost savings, and enhanced efficiency. I am constantly learning and applying new techniques in data analysis and machine learning to better anticipate market trends, customer behavior, and operational efficiencies.
-
-💡 **Future Plans**: I plan to deepen my expertise in advanced analytics and machine learning, aiming to provide businesses with predictive models that not only reveal current patterns but also forecast future opportunities and challenges. My ambition is to become a key player in helping organizations stay ahead of the curve through innovative and actionable insights.
+![Dashboard](https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria1.jpg)
+---
 
 
+## 📖 Project Overview
 
-## 🔧 Technologies and Tools
+This project presents an interactive Power BI dashboard to analyze car sales data for the years 2022-2023. The dataset provides insights into the performance of car manufacturers, revenue generation, customer preferences, and sales trends.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-20232A?style=for-the-badge&logo=matplotlib&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Kivy](https://img.shields.io/badge/Kivy-463B3D?style=for-the-badge&logo=kivy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+### Key Objectives:
+- Identify the best-selling car models and manufacturers.
+- Segment cars based on price categories to target different customer groups.
+- Analyze monthly and regional sales trends for better decision-making.
+- Understand customer behavior, including transmission, engine type, and car body preferences.
 
+---
 
+## 📊 Dashboard Insights
 
-## 🛠️ Projects I'm working on
+The dashboard offers detailed visualizations and analysis, including:
 
-## Python Projects
+- **Best Selling Model**: Identifies the most popular car model.
+- **Total Cars Sold by Company**: A bar chart ranking manufacturers based on sales volume.
+- **Total Revenue**: Displays cumulative income generated from car sales.
+- **Sales Trends by Month**: Tracks monthly performance to highlight peaks and declines in sales.
+- **Body Styles Preferences**: Analyzes customer choices for car styles such as SUVs, Sedans, and Hatchbacks.
+- **Color Preferences**: Pie chart showing the distribution of car colors sold.
+- **Regional Sales Analysis**: Highlights locations with the highest car sales, helping to pinpoint geographic performance.
 
-- [Car Sales Analysis](https://github.com/PatrykPaul/Car-sales-analysis)
-- [Shop Customers Analysis](https://github.com/PatrykPaul/Shop-customers-analysis)
+<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin-bottom:50px;">
+  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/2.png" alt="Dashboard Preview 2" style="width:380px; height:auto;">
+  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/3.png" alt="Dashboard Preview 3" style="width:380px; height:auto;">
+</div>
 
+<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin-bottom:50px;">
+  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/4.png" alt="Dashboard Preview 4" style="width:380px; height:auto;">
+  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/6.png" alt="Dashboard Preview 6" style="width:380px; height:auto;">
+</div>
 
+---
 
+## 📋 Tools Used
 
-## SQL Projects
-- [FireShopDB](https://github.com/PatrykPaul/FireShopDB)
+### Power BI:
+- **Data Cleaning**: Handled null values, inconsistencies, and formatted date columns.
+- **Data Modeling**: Established relationships between multiple tables (e.g., car details, sales data, and pricing).
+- **Custom Measures**: Created DAX measures for:
+  - Top-selling car models.
+  - Monthly revenue trends.
+  - Customer preferences segmentation.
+- **Interactive Filters**: Added slicers for date range, price categories, engine type, and transmission type.
 
-## Power BI Projects
-- [Car Sales](https://github.com/PatrykPaul/Car_sales)
-- [Shop Sales](https://github.com/PatrykPaul/Shop-Sales)
+---
 
-## Excel Projects
-- [Restaurant Sales Analysis](https://github.com/SnajperHS/Restaurant-Sales-Insights)
-- [FLAMEX Business Analysis](https://github.com/SnajperHS/Flamex)
+## 🔍 Filters and Features
 
+- **Price Categories**: Dynamic segmentation of cars into four price brackets.
+- **Date Filters**: Enables the user to explore trends over specific periods.
+- **Interactive Slicers**: Filters for engine type, transmission type, and regions to focus the analysis.
+- **Dynamic Images**: Default image highlights the top-performing car model while updating based on user selections.
 
-## 📫 How to Reach Me
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patryk-paul-148a8a275/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:patryk5555511@gmail.com)
+## ⚙️ Data Preparation
+
+### Source:
+- The dataset includes details of car sales transactions, extracted from a fictional database.
+
+### Data Cleaning:
+- Addressed null values and duplicates.
+- Standardized date formats.
+- Verified relationships between tables to ensure data integrity.
+
+---
+
+## 🖥️ Preview of the Filters Panel
+
+![Filters Panel Preview](https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/5.png)
+
+---
+
+## 🚀 How to Use the Dashboard
+
+1. Open the `.pbix` file in Power BI Desktop.
+2. Explore the interactive slicers to filter the data by price categories, date ranges, and customer preferences.
+3. Analyze the visualizations to derive meaningful insights for business decisions.
