@@ -6,7 +6,7 @@
 
 ## 📖 Project Overview
 
-This project presents an interactive Power BI dashboard to analyze car sales data for the years 2022-2023. The dataset provides insights into the performance of car manufacturers, revenue generation, customer preferences, and sales trends.
+The report is divided into three main sections, providing comprehensive insights into key aspects of operations. Each section is designed to offer clarity and easy access to data, supporting informed decision-making.
 
 ### Key Objectives:
 - Identify the best-selling car models and manufacturers.
@@ -29,13 +29,13 @@ The dashboard offers detailed visualizations and analysis, including:
 - **Regional Sales Analysis**: Highlights locations with the highest car sales, helping to pinpoint geographic performance.
 
 <div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin-bottom:50px;">
-  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/2.png" alt="Dashboard Preview 2" style="width:380px; height:auto;">
-  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/3.png" alt="Dashboard Preview 3" style="width:380px; height:auto;">
+  <img src="https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria1.jpg" alt="Dashboard Preview 2" style="width:380px; height:auto;">
+  <img src="https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria2.jpg" alt="Dashboard Preview 3" style="width:380px; height:auto;">
 </div>
 
 <div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin-bottom:50px;">
-  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/4.png" alt="Dashboard Preview 4" style="width:380px; height:auto;">
-  <img src="https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/6.png" alt="Dashboard Preview 6" style="width:380px; height:auto;">
+  <img src="https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria3.jpg" alt="Dashboard Preview 4" style="width:380px; height:auto;">
+  <img src="https://github.com/karolholda/Power-BI-for-Data-Analysis/blob/main/Pizzeria%20Inventory%20and%20Management%20Project/Dashboard/Pizzeria4.jpg" alt="Dashboard Preview 6" style="width:380px; height:auto;">
 </div>
 
 ---
@@ -71,13 +71,7 @@ The dashboard offers detailed visualizations and analysis, including:
 - Addressed null values and duplicates.
 - Standardized date formats.
 - Verified relationships between tables to ensure data integrity.
-
----
-
-## 🖥️ Preview of the Filters Panel
-
-![Filters Panel Preview](https://github.com/PatrykPaul/Car_sales/blob/main/Dashboard/5.png)
-
+  
 ---
 
 ## 🚀 How to Use the Dashboard
