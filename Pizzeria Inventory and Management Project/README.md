@@ -9,10 +9,10 @@
 The report is divided into three main sections, providing comprehensive insights into key aspects of operations. Each section is designed to offer clarity and easy access to data, supporting informed decision-making.
 
 ### Key Objectives:
-- Identify the best-selling car models and manufacturers.
-- Segment cars based on price categories to target different customer groups.
-- Analyze monthly and regional sales trends for better decision-making.
-- Understand customer behavior, including transmission, engine type, and car body preferences.
+- Identify the best-selling products.
+- Total sales of restaurant and top selling items.
+- Analyze inventory usage trends for better decision-making.
+- Analyze worked hours, hourly salary and employee cost comprasion.
 
 ---
 
@@ -20,11 +20,11 @@ The report is divided into three main sections, providing comprehensive insights
 
 The dashboard offers detailed visualizations and analysis, including:
 
-- **Best Selling Model**: Identifies the most popular car model.
-- **Total Cars Sold by Company**: A bar chart ranking manufacturers based on sales volume.
-- **Total Revenue**: Displays cumulative income generated from car sales.
-- **Sales Trends by Month**: Tracks monthly performance to highlight peaks and declines in sales.
-- **Body Styles Preferences**: Analyzes customer choices for car styles such as SUVs, Sedans, and Hatchbacks.
+- **Best Selling Pizza**: Identifies the most popular pizzas.
+- **Top Selling Items**: Total Sales of Restaurant and Top Selling Items
+- **Total Revenue**: Displays cumulative income generated.
+- **Products Inventory**: Analyzes total ingredients cost by ordered products.
+- **Inventory Management**: Tracks products that require additional purchase.
 - **Color Preferences**: Pie chart showing the distribution of car colors sold.
 - **Regional Sales Analysis**: Highlights locations with the highest car sales, helping to pinpoint geographic performance.
 
