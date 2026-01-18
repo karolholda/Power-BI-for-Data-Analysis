@@ -1,0 +1,25 @@
+*/
+Konwersja wartości czasu 
+Działanie:
+- Zsumowanie wartości godzin z Tabeli @Table i kolumny [Value to convert]
+- Zamiana wartości na godziny, minuty, dni,
+- Ustanowienie formatu godzin, minut, dni
+*/
+
+Convert Values = 
+VAR _DecimalHours = SUM( 'Table'[Value to convert] )
+VAR _Hours = INT( _DecimalHours)
+VAR _Minutes = ROUND( (_DecimalHours - _Hours) * 60, 0)
+VAR _Days = INT( DIVIDE( _Hours, 24 ) )
+
+VAR _HoursFormat = FORMAT( _Hours , "0" )
+VAR _MinsFormat = FORMAT( _Minutes , "0" )
+VAR _DaysFormat = FORMAT( _Days , "0" )
+
+RETURN
+SWITCH( TRUE(),
+    _Hours = 0, _MinsFormat & "min",
+    _Minutes = 0, _HoursFormat & "h",
+    _Days = 0, _HoursFormat & "h " & _MinsFormat & "min",
+    _DaysFormat & "d" & FORMAT( _Hours - ( _Days * 24 ), "0" ) & "h " & _MinsFormat & "min"
+)
